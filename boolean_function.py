@@ -22,6 +22,6 @@ while i < 2 ** 4:
     x2 = (mb(i) % 1000) // 100
     x3 = (mb(i) % 100) // 10
     x4 = mb(i) % 10
-    f = bp(x1, x4)
+    f = bp(x1 * x2, x4)
     print(x1, x2, x3, x4, f, sep=' ')
     i += 1
